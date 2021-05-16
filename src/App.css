@@ -1,10 +1,10 @@
 body {
-  /* background-color: #282c34; */
-  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);}
+  /* color: white; */
+  background-image: linear-gradient(60deg, #16222a 0%, #3a6073 100%);}
 
 .App {
   text-align: center;
-  max-width: 528px;
+  max-width: 428px;
   margin: 0 auto;
 }
 
@@ -15,7 +15,7 @@ body {
   color: white;
   position: fixed;
   width: 100%;
-  max-width: 528px;
+  max-width: 428px;
   top: 0;
   display: flex;
   align-items: center;
@@ -51,7 +51,7 @@ main::-webkit-scrollbar {
 }
 
 main::-webkit-scrollbar-track {
-  background: #1e1e24;
+  background-image: linear-gradient(to top, #b993d6 0%, #8ca6db 100%);
 }
 
 main::-webkit-scrollbar-thumb {
@@ -62,16 +62,24 @@ form {
   height: 10vh;
   position: fixed;
   bottom: 0;
-  background-color: rgb(24, 23, 23);
+  background-color: rgb(58, 58, 58);
   width: 100%;
-  max-width: 728px;
+  max-width: 428px;
   display: flex;
   font-size: 1.5rem;
 }
 
 form button {
-  width: 20%;
-  background-color: rgb(56, 56, 143);
+  width: 17%;
+  margin-top: 4px;
+  margin-bottom: 3px;
+  font-size: 30px;
+  font-weight: bold;
+  background: #8ca6db;
+  border-radius: 50px;
+  height: 56px;
+  width: 72px;
+
 }
 
 
@@ -87,15 +95,17 @@ input {
 }
 
 button {
-  background-color: #282c34; /* Green */
+  background-color: #DE3163; 
   border: none;
-  color: white;
-  padding: 15px 32px;
+  color: yellow;
+  padding: 10px 25px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   cursor: pointer;
+  font-family: 'Kulim Park';
   font-size: 1.25rem;
+  border-radius: 20px;
 }
 
 button:disabled {
@@ -116,6 +126,46 @@ button:disabled {
 }
 
 
+.google-b {
+  color: #4285F4;
+  background: white;
+  max-width: 400px;
+  margin: 0 auto;
+  border-radius: 50px;
+  font-size: 22px;
+  font-family: 'Kulim Park';
+  font-weight: bold;
+}
+.google-r {
+  color: #DB4437;
+  background: white;
+  max-width: 400px;
+  margin: 0 auto;
+  border-radius: 50px;
+  font-size: 22px;
+  font-family: 'Kulim Park';
+  font-weight: bold;
+}
+.google-y {
+  color: #F4B400;
+  background: white;
+  max-width: 400px;
+  margin: 0 auto;
+  border-radius: 50px;
+  font-size: 22px;
+  font-family: 'Kulim Park';
+  font-weight: bold;
+}
+.google-g {
+  color: #0F9D58;
+  background: white;
+  max-width: 400px;
+  margin: 0 auto;
+  border-radius: 50px;
+  font-size: 22px;
+  font-family: 'Kulim Park';
+  font-weight: bold;
+}
 
 
 ul, li {

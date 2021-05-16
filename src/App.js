@@ -52,7 +52,13 @@ function SignIn() {
 
   return (
     <>
-      <button className="sign-in" onClick={signInWithGoogle}>Sign in with Google</button>
+      <button className="sign-in" onClick={signInWithGoogle}>Sign in with 
+      <span className="google-b"> G</span>
+      <span className="google-r">o</span>
+      <span className="google-y">o</span>
+      <span className="google-b">g</span>
+      <span className="google-g">l</span>
+      <span className="google-r">e</span></button>
       <p></p>
     </>
   )
@@ -103,9 +109,9 @@ function ChatRoom() {
 
     <form onSubmit={sendMessage}>
 
-      <input value={formValue} onChange={(e) => setFormValue(e.target.value)} placeholder="say something nice" />
+      <input value={formValue} onChange={(e) => setFormValue(e.target.value)} placeholder="☺ Type a message ..." />
 
-      <button type="submit" disabled={!formValue}>🕊️</button>
+      <button type="submit" disabled={!formValue}>✔</button>
 
     </form>
   </>)
