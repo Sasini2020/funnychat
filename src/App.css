@@ -1,21 +1,23 @@
 body {
   /* color: white; */
-  background-image: linear-gradient(60deg, #16222a 0%, #3a6073 100%);}
+  /* background-image: linear-gradient(60deg, #16222a 0%, #3a6073 100%); */
+  background-image: url("./images/bg.jpg");
+}
 
 .App {
   text-align: center;
-  max-width: 428px;
+  max-width: 400px;
   margin: 0 auto;
 }
 
 .App header {
-  background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
+  background-image: linear-gradient(to top, #4db9c5 0%, #7fb3f7 100%);
   height: 10vh;
   min-height: 50px;
   color: white;
   position: fixed;
   width: 100%;
-  max-width: 428px;
+  max-width: 400px;
   top: 0;
   display: flex;
   align-items: center;
@@ -23,7 +25,7 @@ body {
   z-index: 99;
   padding: 10px;
   box-sizing: border-box;
-  font-family: 'Bubblegum Sans';
+  font-family: "Bubblegum Sans";
   font-size: 20px;
 }
 
@@ -33,8 +35,7 @@ body {
   justify-content: center;
   min-height: 100vh;
   /* background-color: rgb(40, 37, 53); */
-  background-image: linear-gradient(to top, #b993d6 0%, #8ca6db 100%);
-
+  background-image: url("./images/cc.jpg");
 }
 
 main {
@@ -51,7 +52,7 @@ main::-webkit-scrollbar {
 }
 
 main::-webkit-scrollbar-track {
-  background-image: linear-gradient(to top, #b993d6 0%, #8ca6db 100%);
+  background-image: linear-gradient(to top, #8ca6db 0%, #b993d6 100%);
 }
 
 main::-webkit-scrollbar-thumb {
@@ -64,7 +65,7 @@ form {
   bottom: 0;
   background-color: rgb(58, 58, 58);
   width: 100%;
-  max-width: 428px;
+  max-width: 400px;
   display: flex;
   font-size: 1.5rem;
 }
@@ -79,9 +80,7 @@ form button {
   border-radius: 50px;
   height: 56px;
   width: 72px;
-
 }
-
 
 input {
   line-height: 1.5;
@@ -95,7 +94,7 @@ input {
 }
 
 button {
-  background-color: #DE3163; 
+  background-color: #de3163;
   border: none;
   color: yellow;
   padding: 10px 25px;
@@ -103,7 +102,7 @@ button {
   text-decoration: none;
   display: inline-block;
   cursor: pointer;
-  font-family: 'Kulim Park';
+  font-family: "Kulim Park";
   font-size: 1.25rem;
   border-radius: 20px;
 }
@@ -113,7 +112,6 @@ button:disabled {
   cursor: not-allowed;
 }
 
-
 .sign-in {
   color: #282c34;
   background: white;
@@ -121,54 +119,53 @@ button:disabled {
   margin: 0 auto;
   border-radius: 50px;
   font-size: 22px;
-  font-family: 'Kulim Park';
+  font-family: "Kulim Park";
   font-weight: bold;
 }
 
-
 .google-b {
-  color: #4285F4;
+  color: #4285f4;
   background: white;
   max-width: 400px;
   margin: 0 auto;
   border-radius: 50px;
   font-size: 22px;
-  font-family: 'Kulim Park';
+  font-family: "Kulim Park";
   font-weight: bold;
 }
 .google-r {
-  color: #DB4437;
+  color: #db4437;
   background: white;
   max-width: 400px;
   margin: 0 auto;
   border-radius: 50px;
   font-size: 22px;
-  font-family: 'Kulim Park';
+  font-family: "Kulim Park";
   font-weight: bold;
 }
 .google-y {
-  color: #F4B400;
+  color: #f4b400;
   background: white;
   max-width: 400px;
   margin: 0 auto;
   border-radius: 50px;
   font-size: 22px;
-  font-family: 'Kulim Park';
+  font-family: "Kulim Park";
   font-weight: bold;
 }
 .google-g {
-  color: #0F9D58;
+  color: #0f9d58;
   background: white;
   max-width: 400px;
   margin: 0 auto;
   border-radius: 50px;
   font-size: 22px;
-  font-family: 'Kulim Park';
+  font-family: "Kulim Park";
   font-weight: bold;
 }
 
-
-ul, li {
+ul,
+li {
   text-align: left;
   list-style: none;
 }
@@ -188,7 +185,6 @@ p {
   display: flex;
   align-items: center;
 }
-
 
 .sent {
   flex-direction: row-reverse;
